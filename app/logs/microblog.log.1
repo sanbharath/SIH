@@ -1,0 +1,108 @@
+2019-02-25 16:16:38,872 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 16:17:00,769 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 16:17:33,362 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 18:38:43,486 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 18:39:04,270 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 18:50:48,242 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 18:51:15,787 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 19:21:22,408 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 19:37:39,935 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 19:38:06,870 ERROR: Exception on / [GET] [in /home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/sanbharath/Desktop/project/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-02-25 19:38:12,943 ERROR: Exception on /user/maruthi [GET] [in /home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/sanbharath/Desktop/project/microblog/app/routes.py", line 99, in user
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-02-25 19:38:17,874 ERROR: Exception on /index [GET] [in /home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/sanbharath/Desktop/project/microblog/app/routes.py", line 30, in index
+    page, app.config['POSTS_PER_PAGE'], False)
+KeyError: 'POSTS_PER_PAGE'
+2019-02-25 19:44:56,015 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:43]
+2019-02-25 20:24:49,924 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:45]
+2019-02-25 20:26:38,985 ERROR: Exception on /reset_password_request [POST] [in /home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sanbharath/Desktop/project/microblog/app/routes.py", line 166, in reset_password_request
+    send_password_reset_email(user)
+  File "/home/sanbharath/Desktop/project/microblog/app/email.py", line 19, in send_password_reset_email
+    user=user, token=token),
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/jinja2/environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/jinja2/environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/jinja2/environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/jinja2/loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/sanbharath/Desktop/project/microblog/venv/local/lib/python2.7/site-packages/flask/templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+TemplateNotFound: email/reset_password.txt
+2019-02-25 20:28:02,161 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:45]
+2019-02-25 20:41:43,937 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:47]
+2019-02-25 20:41:58,885 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:47]
+2019-02-25 20:43:46,111 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:47]
+2019-02-25 20:55:53,786 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:49]
+2019-02-25 21:04:01,497 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:18:53,108 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:19:14,557 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:19:32,743 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:28:29,130 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:50:42,666 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:51:24,508 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 21:52:08,527 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 22:23:23,687 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
+2019-02-25 22:23:56,327 INFO: Microblog startup [in /home/sanbharath/Desktop/project/microblog/app/__init__.py:52]
